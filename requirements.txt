@@ -1,0 +1,33 @@
+# Core dependencies for programming-learning-portfolio
+
+# Data Analysis & NumPy
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Data Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Computer Vision
+opencv-python>=4.5.0
+
+# Jupyter for notebooks
+jupyter>=1.0.0
+jupyterlab>=3.0.0
+
+# Testing (for best practices examples)
+pytest>=6.2.0
+
+# Code quality
+black>=21.0  # Code formatter
+flake8>=3.9.0  # Linter
+mypy>=0.900  # Type checker (optional)
+
+# Database (SQLite is built-in, but adding optional tools)
+sqlalchemy>=1.4.0  # ORM (optional)
+
+# Utility
+python-dotenv>=0.19.0  # Environment variables
