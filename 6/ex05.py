@@ -1,8 +1,22 @@
-while True:
-    num=float(input("enter a num"))
-    if num > 0:
-        print ("its mosbat")
-    elif num <0:
-        print("its manfi")
-    else:
-        print("its sefr")
+import turtle
+turtle.title("hello")
+turtle.pensize(3)
+turtle.pencolor("silver")
+turtle.fillcolor("cyan")
+#turtle.shape("turtle")
+#turtle square circle arrow classic
+turtle.ht()
+turtle.speed("slow")
+turtle.penup()
+turtle.goto(-300,200)
+turtle.pendown()
+turtle.begin_fill()
+c=turtle.numinput('hi',"enter number=")
+turtle.circle(c)
+turtle.end_fill()
+b=turtle.textinput("color","enter color=")
+turtle.pencolor(b)
+a=turtle.textinput("hi","enter text=")
+turtle.write(a,font=("times new roman",12,"bold"))
+
+turtle.done()

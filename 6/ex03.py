@@ -1,11 +1,19 @@
-i=1
-while i<=20:
-    n=1
-    c=0
-    while n<=i:
-        if i%n==0:
-            c=c+1
-        n=n+1
-    if c==2:
-        print(i)
-    i=i+1
+import turtle
+turtle.title("hello")
+turtle.pensize(3)
+turtle.pencolor("silver")
+turtle.fillcolor("cyan")
+#turtle.shape("turtle")
+#turtle square circle arrow classic
+turtle.ht()
+turtle.speed("slow")
+turtle.penup()
+turtle.goto(-300,200)
+turtle.pendown()
+turtle.write("welcome",font=("times new roman",12,"bold"))
+turtle.begin_fill()
+for i in range(3):
+    turtle.backward(150)
+    turtle.left(120)
+turtle.end_fill()
+turtle.done()

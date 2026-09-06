@@ -1,11 +1,19 @@
-a=int(input("enter number 1 = "))
-b=int(input("enter number 2 = "))
-if a>b:
-    a,b=b,a
-if a%2==0:
-    a=a+2
-else:
-    a=a+1
-while a<b:
-    print(a)
-    a=a+2
+import turtle
+turtle.title("hello")
+turtle.pensize(3)
+turtle.pencolor("silver")
+turtle.fillcolor("cyan")
+#turtle.shape("turtle")
+#turtle square circle arrow classic
+turtle.ht()
+turtle.speed("slow")
+turtle.penup()
+turtle.goto(-300,200)
+turtle.pendown()
+turtle.write("welcome",font=("times new roman",12,"bold"))
+turtle.begin_fill()
+for i in range(4):
+    turtle.forward(150)
+    turtle.right(90)
+turtle.end_fill()
+turtle.done()

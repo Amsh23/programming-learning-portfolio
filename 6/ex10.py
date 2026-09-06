@@ -1,8 +1,22 @@
-def check(n):
-    if n % 2 == 0:
-        return "Even" 
-    else:
-        return "Odd" 
-x= int(input("Enter a number: "))
-print(check(x))
+import turtle
+turtle.title("hello")
+turtle.pensize(3)
+turtle.ht()
+# list1=input("enter number").split()
+list1=turtle.textinput("welcome","enter number with space=")
 
+turtle.fillcolor("darkred")
+turtle.begin_fill()
+for i in list1.split():
+    turtle.forward(10)
+    turtle.left(90)
+    turtle.forward(int(i))
+    turtle.right(90)
+    turtle.write(i,font=("b nazanin",15,"bold"))
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.forward(int(i))
+    turtle.left(90)
+    turtle.forward(10)
+turtle.end_fill()
+turtle.done()
