@@ -1,6 +1,37 @@
-for i in range(10):
-     = int(input(f"Enter a number{i}= "))
-    if num % 2 == 0:
-        print("Even")
-    else:
-        print("Odd")
+# a={1,3,5,4,5,6,5,4,5,1,2,3,1,1,1,3,5,6,4,1}
+# print(a)
+# print(type(a))
+# a.add(33)
+# print(a)
+# s=set()
+# print(s)
+# b={44,55,66,77}
+# a.update(b)
+# print(a)
+# a.discard(6)
+# print(a)
+# a.remove(5)
+# print(a)
+# a.discard(33)
+# a.remove(33)
+# print(a)
+# b=a.copy()
+# print(b)
+# a.clear()
+# print(a)
+# print(a)
+# a.pop()
+# # print(a)
+# a={1,3,5,7,9}
+# b={2,4,5,9}
+# # print(a.union(b))
+# # print(a|(b))
+# # print(a.intersection(b))
+# # print(a&(b))
+# print(a.difference(b))
+# print(a-b)
+# print(dir(set))
+print([m for m in dir(set) if not m.startswith("__")])
+print([m for m in dir(tuple) if not m.startswith("__")])
+print([m for m in dir(list) if not m.startswith("__")])
+print([m for m in dir(dict) if not m.startswith("__")])

@@ -1,5 +1,5 @@
-a=int(input("enter a number:"))
-if a%2==0:
-    print("even")
-else:
-    print("odd")
+list1=input("enter=").split()
+list2=input("enter=").split()
+for i in list1:
+    if i in list2:
+        print(i)

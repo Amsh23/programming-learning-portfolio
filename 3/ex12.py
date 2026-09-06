@@ -1,5 +1,4 @@
-a=int(input("enter a number1="))
-if a % 3==0 or a% 5==0 :
-    print("even")
-else:
-    print("odd")
+list=input("enter number ").split()
+for i in list:
+    if int(i)%3==0 or int(i)%5==0:
+        print (i)

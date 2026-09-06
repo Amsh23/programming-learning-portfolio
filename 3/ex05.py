@@ -1,6 +1,5 @@
-a=int(input("enter a number="))
-s=a//100
-b=a%100
-d=b//10
-y=b%10
-print("s=",s,"d=",d,"y=",y,)
+list1=[]
+for i in range(10):
+    num=int(input(f"enter a number{i}="))
+    list1.append(num)
+print(list1)

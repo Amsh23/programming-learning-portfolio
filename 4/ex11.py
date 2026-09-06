@@ -1,4 +1,8 @@
+a=set()
 for i in range(10):
-    salary = int(input("enter a number :"))
-    salary = 0.8*salary 
-    print(salary)
+    number=int(input("Enter a Number:"))
+    a.add(number)
+print(a)
+x=input("enter number=")
+a.discard(x)
+print(a)
