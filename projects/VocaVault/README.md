@@ -47,7 +47,7 @@ BOT_TOKEN=your_real_token
 Run:
 
 ```bash
-python bot.py
+python bot_vocavault_youtube_audio_downloader.py
 ```
 
 ## Usage
