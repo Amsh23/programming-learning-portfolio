@@ -9,6 +9,7 @@ A comprehensive, progressive learning path from Python fundamentals through adva
 | **Beginner** | [01_python/](#python-fundamentals) - Language basics |
 | **Intermediate** | [02_algorithms/](#algorithms--data-structures) + [03_data_analysis/](#data-analysis) |
 | **Advanced** | [04_machine_learning/](#machine-learning) + [05_computer_vision/](#computer-vision) |
+| **Specialized AI** | [06_nlp/](06_nlp/) + [07_deep_learning/](07_deep_learning/) |
 
 **New to the portfolio?** Start with [LEARNING_PATH.md](LEARNING_PATH.md) for a guided tour.
 
@@ -24,6 +25,8 @@ A comprehensive, progressive learning path from Python fundamentals through adva
 04_machine_learning/   Supervised and unsupervised learning
        ↓
 05_computer_vision/    Image processing and vision techniques
+06_nlp/                Natural language processing coursework
+07_deep_learning/      Deep learning coursework
 ```
 
 Each section builds on previous foundations and is self-contained with supporting files.
